@@ -1,0 +1,21 @@
+/* Searchbox */
+
+.search {
+  width: 100%;
+
+  input[type="search"] {
+    height: 40px;
+    width: 60%;
+    border: 2px solid $primary-color;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  button {
+    border: 1px solid $primary-color;
+    background: $primary-color;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -4px;
+  }
+}

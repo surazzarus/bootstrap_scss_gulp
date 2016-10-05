@@ -1,0 +1,31 @@
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: $base-font-color;
+}
+
+a{
+  color: $primary-color;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+/*
+input, textarea, button {
+  @include border-radius(5px);
+}
+*/
+
+img.device {
+  width: 100%;
+}
+
+img.device-small {
+  width: 70%;
+  margin-bottom: -30px;
+}

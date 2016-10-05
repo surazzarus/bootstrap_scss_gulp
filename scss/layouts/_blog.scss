@@ -1,0 +1,26 @@
+/* Blog */
+.blog-post {
+  @include add-border(1px, $light-color, right-left);
+  @include add-border(1px, $light-color, top);
+  padding: 15px;
+
+  h2.page-header {
+    margin-top: 5px;
+  }
+}
+
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px;
+  @include add-border(1px, $light-color, all);
+  margin-bottom: 20px;
+
+  i {
+    padding-left: 5px;
+  }
+}

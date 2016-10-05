@@ -1,0 +1,47 @@
+@media (max-width: 768px){
+  .navbar-toggle {
+    background: $primary-color;
+    border-color: $light-color !important;
+  }
+  .section-showcase .showcase-content {
+    padding-top: 80px;
+  }
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+
+  h2 {
+    padding-left: 10px;
+  }
+
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+
+  .footer-main {
+    ul {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+    }
+  }
+
+  .post-meta {
+    i {
+      padding-left: 0;
+    }
+  }
+
+  /* Contact Page */
+  .section-map iframe {
+    width: 100%;
+  }
+}

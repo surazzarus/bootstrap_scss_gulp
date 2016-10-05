@@ -1,0 +1,21 @@
+/* Carousel */
+
+.carousel {
+  margin-bottom: 10px;
+}
+
+.carousel img {
+  padding: 3px;
+  @include add-border(1px, #cccccc, all);
+}
+
+/* Tabs */
+
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  @include add-background($light-color);
+  @include add-border(1px, $light-color, left);
+}
+
+.tab-pane {
+  padding: 20px 10px;
+}
